@@ -227,7 +227,4 @@ def multiply2():
 
 multiply2()
 
-# ch05_hangman
-
-
 
