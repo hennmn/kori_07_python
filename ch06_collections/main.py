@@ -428,7 +428,9 @@ elif month_int in [ 1, 3, 5, 7, 8, 10, 12] :
 # print(f'입력 받은 연락처는 {telephone} 입니다.')
 '''
 collections + function
-
+  1과목 - 서답형 / 50문항
+  2과목 - 코드 작성 / 4문항 
+  
 숫자를 입력한 횟수만큼 비어있는 list에 숫자를 추가하기
 문제 : 비어있는 numbers1을 선언하고, 그 안에 입력 받은 횟수만큼 숫자를 추가하시오.
 
@@ -500,7 +502,7 @@ conut_even_odd([1,2,3,4,5,6,7,8,9,10])
 홀수의 개수 5개
 '''
 # 내가 한 거
-def conut_even_odd1(list_numbers):
+def count_even_odd1(list_numbers):
     even = 0
     odd = 0
     for number in list_numbers:
@@ -511,7 +513,7 @@ def conut_even_odd1(list_numbers):
     print(f'짝수의 개수 : {even}개')
     print(f'홀수의 개수 : {odd}개')
 
-conut_even_odd1([1,2,3,4,5,6,7,8,9,10])
+count_even_odd1([1,2,3,4,5,6,7,8,9,10])
 
 # 다른 방식
 def count_even_odd2(list_numbers):
@@ -533,3 +535,4 @@ def count_even_odd3(list_numbers):
             evens.append(number)
     print(f'짝수의 개수 : {len(evens)}개')
     print(f'짝수의 개수 : {len(evens) - len(evens)}개')
+
